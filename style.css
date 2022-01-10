@@ -1,0 +1,276 @@
+/* ---------home.css---------- */
+
+        
+        .body-1{
+            background-color: slategrey;
+            transition: 4s;
+        }
+        .body-1:hover{
+            background-color: rgb(221, 207, 207);
+        }
+        .parent{
+            width: 98vw;
+            height: 7vw;
+            background-color: rgb(102, 94, 94);
+        }
+        .child{
+            display: flex;
+            justify-content: space-around;
+        }
+        #search{
+            text-align: center;
+            color: turquoise;
+            font-size: 25px;
+            outline: none;
+            border: none;
+            width: 25%;
+            height: 25px;
+           margin-top: 1%;
+           border-radius: 4px;
+           background: #ffffff;
+           box-shadow:  5px 5px 10px #858585,
+                        5px -5px -10px #ffffff;
+           
+        }
+        #tag{
+            width:100px;
+            margin-top: -20%;
+            margin-left: 2%;
+            border-radius: 20px;
+            border-style:outset
+
+        }
+        .child-0{
+            display: flex;
+            
+        }
+        .child-1{
+            display: flex;
+            /* justify-content: flex-end; */
+            flex-direction: row-reverse;
+            margin-top: -2%;
+            margin-right: 10%;
+        }
+        #btn{
+            width: 150px;
+            height: 30px;
+            font-family: fantasy;
+            background-color: turquoise;
+            border-radius: 14px;
+           background: #ffffff;
+           box-shadow:  5px 5px 10px #858585,
+                        5px -5px -10px #ffffff;
+        }
+        .para{
+            display: flex;
+            justify-content: space-around;
+        }
+        .web-def{
+            text-align: center;
+            border-style: groove;
+            border-radius: 15px;
+            color: rgb(5, 63, 255);
+        }
+        .web-def:hover{
+            background-color: white;
+            font-size: 25px;
+        }
+        #pa{
+            border-style: groove;
+            font-size: 25px;
+            color: rgb(42, 201, 153);
+            transition: 2s;
+        }
+        #pa:hover{
+            text-decoration: underline;
+            color: rgb(224, 55, 80);
+        }
+        .para-1{
+            display: flex;
+            justify-content: space-around;
+        }
+        #pa-1{
+            border-style: dashed;
+            color: #ffffff;
+        }
+        #pa-1:hover{
+            background-color: aqua;
+            color: brown;
+        }
+        .course{
+            display: flex;
+            justify-content: space-between;
+            /* border: 1px solid red; */
+            border-style: outset;
+            border-radius: 5px;
+            background-color: #e38245;
+        }
+        .course>img{
+            width: 330px;
+            height: 200px;
+            border-radius: 10px;
+        }
+        .footer{
+            background-color: black;
+            width: 98vw;
+            height: 10vw;
+           
+
+            
+        }
+        .footer-child{
+            display: flex;
+            justify-content: center;
+            margin-top: -4%; 
+
+        }
+        #logo{
+            width: 40px;
+            height: 30px;
+            border: 1px solid rgb(248, 246, 246);
+            border-radius: 10px;
+            margin: 18px;
+            
+        }
+        #copy{
+            color: white;
+            margin-top: -2%;
+        }
+        #copy1{
+            color: white;
+        }
+        .right{
+            display: flex;
+            justify-content: flex-end;
+            /* margin-top: 1%; */
+        }
+        
+        .term{
+            margin-left: 2%;
+          
+        }
+        .term>a{
+            color: white;
+        }
+       /* ----------------------------------------end---------- */
+
+       /* -----------form.css--------------------------start--------- */
+        
+         .body-2{
+             display: flex;
+             justify-content: center;
+              /* padding-left: 29%; */
+             /* padding-right: 37%; */
+             background-image: url(https://static.vecteezy.com/system/resources/previews/002/160/716/non_2x/abstract-minimal-scene-with-geometric-forms-cylinder-podium-in-blue-background-product-presentation-mock-up-show-cosmetic-product-podium-stage-pedestal-or-platform-3d-free-vector.jpg);
+         }
+          .table{
+              background-color: transparent;
+              
+          }
+             
+         
+         .first{
+             /* rgba(66, 66, 61, 0.877) */
+             background-color: transparent; 
+             color: #ffffff;
+             font-size: 20px;
+             font-family:monospace;
+             border: none;
+         }
+         .first:hover{
+             color: rgb(238, 218, 136);
+             font-size: 30px;
+             font-family: fantasy;
+             
+         }
+         /* #age-1{
+             border: none;
+         } */
+         .table{
+             /* color: ; */
+             border: none;
+             /* width: 100px;
+             height: 10%; */
+         }
+     
+         #b1{
+             background-color: transparent;
+             border: none;
+             color: black;
+         }
+         #b1:hover{
+             
+             border-radius: 5px;
+             background-color: wheat;
+             /* box-shadow:  5px 5px 6px #35979f,
+                        5px 5px 1px #6fffff; */
+             color: rgb(139, 13, 13);
+         }
+         #male:hover{
+             background-color: rgb(163, 111, 42);
+         }
+         #add{
+             border: none;
+           
+         }
+         #add:hover{
+             border-radius: 18px;
+
+         }
+         #add{
+             border: none;
+         }
+         
+         /* --------------end form.css------------------ */
+
+        
+        .body-3{
+           background-color: #ffbb83;
+            transition: 2s; 
+        }
+        .body-3:hover{
+            background-color: #b7f297;
+        }
+        .m1{
+            width: 550px;
+            height: 400px;
+            margin-left: 30%;
+            /* border: 12px solid red; */
+            background-color: #2cc491;
+            border-radius: 15px;
+            border-style: inset;
+            outline-style: outset;
+            
+        }
+        .m1:hover{
+            transition: 2s;
+            border-style: inset;
+            outline-style: outset;
+            color: #c397f8;
+
+        }
+        .msg{
+            display: flex;
+            justify-content: space-around;
+            font-size: 45px;
+            color: #4acbe5;
+            transition: 2s;
+
+
+        }
+        .msg:hover{
+            text-decoration: underline;
+            color: rgb(112, 5, 5);
+        }
+        #btn{
+            margin-top: 2%;
+            width: 150px;
+            height: 50px;
+            border-radius: 15px;
+            border: none;
+        }
+        #btn:hover{
+            background-color: #4acbe5;
+            color: aquamarine;
+            font-size: 20px;
+        }

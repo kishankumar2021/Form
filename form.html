@@ -1,0 +1,201 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+       <link rel="stylesheet" href="style.css">
+     <title>REGISTRATION FORM</title>
+   </head>
+   <body class="body-2">
+
+      <!-- <button class="border-btn">remove background</button>
+      <button>click for Registration</button> -->
+         <div class="object-1">
+            <img id="man_gif" src="https://i.pinimg.com/originals/e4/bb/9b/e4bb9bccf763446c596bb7fd45a8a825.gif" alt="">
+
+   <details open>
+         <summary role="button" ></summary>
+    
+  </details>
+         </div>
+
+     <form class="form" action="success.html"  target="_self" name="course">
+       <table border = "2" class="table">
+          <tr class="tr1">
+             <td class="first">First Name:</td>
+             <td><input id="b1" type="text" size="30" autofocus placeholder="Enter you first name" required/></td>
+          </tr>
+	  <tr>
+             <td class="first">Last Name:</td>
+             <td><input class="change-1" id="b1" type="text" size="30" autofocus placeholder="Enter you last name" required/></td>
+          </tr>
+	  <tr>
+             <td class="first">Gender:</td>
+        <td id="gen">
+            <input type="radio" name="gender">Male</input>
+            &nbsp;<input type="radio" name="gender">Female</input>
+	    </td>
+          </tr>
+          <tr>
+             <td class="first">Address:</td>
+             <td class="change-2" id="add"><textarea rows="10" cols="38"></textarea></td>
+          </tr>
+          <tr>
+             <td class="first">Age:</td>
+             <td><input  id="b1" type="number" min="18" max="50" required /></td>
+          </tr>
+	  <tr>
+	     <td class="first">Country</td>
+             <td>
+		<select size="2" single>
+  		   <option value="India">India</option>
+  		   <option value="USA">USA</option>
+  		   <option value="England">Japan</option>
+  		   <option value="Canada">France</option>
+		</select>
+             </td>
+          </tr>
+	  <tr>
+             <td class="first">Date of Birth:</td>
+             <td><input id="b1" type="date"/></td>
+          </tr>
+	  <tr>
+             <td class="first">Email:</td>
+             <td><input class="change-3" id="b1" type="email" size="30" placeholder="someone@gmail.com"  required /></td>
+          </tr>
+	  <tr>
+             <td class="first">Phone No:</td>
+             <td><input id="b1" type="text" maxlength="12" placeholder="123-456-7890"/></td>
+          </tr>
+	  <tr>
+             <td class="first">UserName:</td>
+             <td><input class="change-4" id="b1" type="text" size="30"/></td>
+	  </tr>
+	  <tr>
+             <td class="first">Password:</td>
+             <td><input class="change-5" id="b1" type="password" maxlength="20" /></td>
+	  </tr>
+	  <tr>
+             <td class="first">Course:</td>
+             <td>
+                  <input id="b1" type="checkbox" name="chkCourse" value="c1">HTML</input>
+                  <input id="b1" type="checkbox" name="chkCourse" value="c2">CSS</input>
+                  <input id="b1" type="checkbox" name="chkCourse" value="c3">JAVASCRIPT</input>
+             </td>
+	  </tr>
+	  <tr>
+             <td class="first">Favourite Color:</td>
+             <td><input type="Color"/></td>
+	  </tr>
+	  <tr>
+             <td class="first">Total Experience:</td>
+             <td><input id="b1" type="range" min="1" max="10" step="1" value="5"/></td>
+	  </tr>
+	  <tr>
+             <td class="first">Resume:</td>
+             <td><input id="b1"` type="file"/></td>
+	  </tr>
+	  <tr>
+	    <td class="first"></td>
+            <td>
+         <a href="success.html" target="_self"> <input id="save_fr_nxt" type="submit" value="Save" onclick="return chking_course_box()"/></a>
+		<input  type="reset" value="Cancel"/>		
+	    </td>
+	  </tr>		
+       </table>
+     </form>
+
+     <!-- .....................jQuery Animation Start........................................ -->
+
+    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+
+
+     <script>
+ 
+ 
+      function chking_course_box() {
+            var res = false;
+            var data = document.getElementsByName("chkCourse");
+            for (var n = 0; n < data.length; n++) {
+               if (data[n].checked) {
+                  res = true;
+                  break;
+               }
+            }
+               if (res == false) {
+                  alert("PLEASE SELECT ATLEAST ONE COURSE");
+               }
+            return res;
+            }
+
+
+
+
+
+
+
+        $(document).ready(function(){
+           $("#b1").click(function(){
+              $(".table").css({"background-image" : "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUGz2eXMrLHxgp_yZ266WqwH8yBCNVaGGW1A&usqp=CAU)",
+                                "border" : "10px solid #33FFBD",
+                                "transition" : "5s"
+            })
+           })
+           $(".change-1").click(function(){
+              $(".table").css({
+                 "background-image" : "url(https://static.vecteezy.com/system/resources/previews/002/160/716/non_2x/abstract-minimal-scene-with-geometric-forms-cylinder-podium-in-blue-background-product-presentation-mock-up-show-cosmetic-product-podium-stage-pedestal-or-platform-3d-free-vector.jpg)",
+                  "border" : "8px solid #58acc6",
+                  "transition" : "5s"
+              })
+           })
+            $(".change-2").click(function(){
+              $(".table").css({
+                 "background-image" : "url(https://i.stack.imgur.com/Rpbjm.png)",
+                  "border" : "2px solid #db4b28",
+                  "transition" : "3s"
+              })
+           })
+
+            $(".change-3").click(function(){
+              $(".table").css({
+                 "background-image" : "url(https://img5.goodfon.com/wallpaper/nbig/f/e1/tsvet-forma-fon-230.jpg)",
+                  "border" : "6px solid rgb(11, 112, 194)",
+                  "transition" : "3s"
+              })
+           })
+
+            $(".change-4").click(function(){
+              $(".table").css({
+                 "background-image" : "url(https://thumbs.dreamstime.com/b/pastel-multi-color-gradient-background-pastel-multi-color-gradient-background-simple-form-blend-color-spaces-as-139472664.jpg)",
+                  "border" : "6px solid rgb(185, 62, 185)",
+                  "transition" : "3s"
+              })
+           })
+
+             $(".change-5").click(function(){
+              $(".table").css({
+                 "background-image" : "url(https://wallpapers.com/images/high/plain-light-blue-background-hi4iwqnh1sa9xfz9.jpg)",
+                  "border" : "6px solid rgba(9, 46, 126, 0.932)",
+                  "transition" : "3s"
+              })
+           })
+
+           setInterval(function () {
+              $("#man_gif").animate({
+                 marginLeft: '-=40px'
+              })
+           }, 20)
+
+
+        })
+
+            const gif = window.matchMedia("(prefers-reduced-motion: reduce))");
+            const details = document.querySelector(".object-1 < details");
+
+            if (gif.matches) {
+            details.removeAttribute("open");
+            }
+     </script>
+   </body>
+</html>
+
+
